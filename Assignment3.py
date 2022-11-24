@@ -8,9 +8,9 @@ y = []
 
 # Ask the user to input coordinates
 for i in range(0, n):
-    inputx = int(input("Please enter x coordinate: "))
+    inputx = float(input("Please enter x coordinate: "))
     x.append(inputx)
-    inputy = int(input("Please enter y coordinate: "))
+    inputy = float(input("Please enter y coordinate: "))
     y.append(inputy)
 
 
